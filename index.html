@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE YOU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e519b7413.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <style>
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-image: radial-gradient(circle at top, #ffd2a9, #ffa69e);
+          font-family: "Montserrat";
+        }
+        .card {
+          background-color: white;
+          width: 500px;
+          height: 300px;
+          border-radius: 10px;
+          text-align: center;
+          box-shadow: 2px 2px 5px gray;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .title, .message {
+        font-family: 'Montserrat', cursive;
+      }
+        .title {
+          font-size: 36px;
+          color: red;
+          margin: 20px 0;
+        }
+        .message {
+          font-size: 18px;
+          color: red;
+          text-shadow: 1px 1px 3px gray;
+          margin: 20px 0;
+          max-height: 120px;
+          overflow: auto;
+        }
+        button {
+          background-color: red;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          padding: 10px 20px;
+          margin-top: 20px;
+          cursor: pointer;
+          box-shadow: 2px 2px 5px gray;
+          transition: all 0.3s;
+        }
+        button:hover {
+          transform: translateY(-5px);
+          box-shadow: 2px 7px 5px gray;
+        }
+        /* GIF with hearts */
+      .heart-gif {
+        width: 100px;
+        height: 100px;
+        margin: 20px 0;
+      }
+        /* media queries below */
+      @media only screen and (max-width: 767px) {
+        .card {
+          width: 90%;
+          height: auto;
+        }
+        .title {
+          font-size: 28px;
+          font-weight: bold;
+        }
+        .message {
+          font-size: 16px;
+        }
+      }
+      </style>
+
+    
+    </head>
+    <body>
+      <div class="card">
+        <img src="https://media1.giphy.com/media/5dUllWbKVlaqmMTvHb/200.webp?cid=ecf05e4711h2e20szojwyji7eo5b7207yyupju30pc30i7tu&rid=200.webp&ct=g" class="heart-gif">
+        <div class="title">To my handsome man,</div>
+        <div class="message">
+          <!-- <p>
+            To my handsome man,
+          </p> -->
+          <p>
+            This is your little reminder that I am always thinking of you, loving you and looking forward
+            to being smothered in your kisses. <br>
+            You might not be a big romantic but you have a big heart and I am happy you're mine as I am
+            yours today and till further notice
+          </p>
+          <p>
+            With all my love and a million hugs and kisses,
+          </p>
+          <p>
+           Your princess 
+          </p>
+        </div>
+        <button onclick="alert('Happy First Valentine!!')"> <i class="fa-sharp fa-solid fa-lips"></i> Bite me there </button>
+      </div>
+    </body>
+
+</html>
+  
+
